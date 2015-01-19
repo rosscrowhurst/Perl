@@ -41,7 +41,7 @@ rm ${QUERY_FASTA}
 
 # Run tabular blast parser on tblastn results
 GENEWISE_DIR=${WORKING_DIR}/GeneWise
-blast92gff3_rnc.pl -gff3Outfile=modelproteins-mygenome.gff3 \
+[blast92gff3_rnc.pl](https://github.com/rosscrowhurst/Perl/blob/master/blast92gff3_rnc.pl) -gff3Outfile=modelproteins-mygenome.gff3 \
  -proteinFastaFile=${QUERY_FASTA} \
  -tblastnFile=${QUERY_NAME}_${REFERENCE_NAME}_genes.tblastn \
  -refFastaDir=${REF_INDIVID_FILES_DIR} \
