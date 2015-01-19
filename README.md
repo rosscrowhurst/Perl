@@ -4,7 +4,7 @@ Miscellaneous perl code for Bioinformatics
 
 ## Genewise Prediction
 
-Simple BASH workflow to take TBLASTn comparison results, set up up genewsie commands, run then parse and finally run evigene
+Simple BASH workflow to take TBLASTn comparison results, set up up genewsie commands, run then parse and finally run evigene. Uses [blast92gff3_rnc.pl](https://github.com/rosscrowhurst/Perl/blob/master/blast92gff3_rnc.pl), [file_splitter_by_line.pl](https://github.com/rosscrowhurst/Perl/blob/master/file_splitter_by_line.pl), [parse_genewise_prediction_results.pl](https://github.com/rosscrowhurst/Perl/blob/master/parse_genewise_prediction_results.pl), fastaexplode from EMBOSS/Exonerate, [EvidentialGene](http://arthropods.eugenes.org/EvidentialGene/), NCBI BLAST
 
 ```bash
 # Setup Blast Database and run blast comparison
